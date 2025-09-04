@@ -13,9 +13,11 @@
             "/aser/overview",
             "/onchainstack/scan",
             {
-                "group":"Introduction2"
-            },
-            {
+                "group": "Introduction",
+                "pages": [
+                    "/introduction/introduction"
+                ]
+            },{
                 "group": "Introduction",
                 "pages": [
                     "/introduction/introduction"
