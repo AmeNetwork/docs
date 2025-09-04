@@ -21,14 +21,14 @@
                 "pages": [
                     "/onchainstack/scan",
                     "/onchainstack/sdk",
-                     {
-                      "dropdown": "Changelog",
-                        "icon": "history",
-                        "description": "Updates and changes",
-                        "pages": [
-                          "/onchainstack/sdk"
-                        ]
-                    } 
+                    {
+                      "group":"Component",
+                      "pages":[
+                        "/onchainstack/component/overview",
+                        "/onchainstack/component/build",
+                        "/onchainstack/component/faqs"
+                      ]
+                    }
                 ]
             }
         ],
