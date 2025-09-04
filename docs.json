@@ -17,10 +17,16 @@
                 ]
             },
             {
-                "group": "Onchain Stacks",
+                "group": "Onchain Stack",
                 "pages": [
                     "/onchainstack/scan",
-                    "/onchainstack/sdk"
+                    "/onchainstack/sdk",
+                    {
+                      "dropdown": "Component",
+                      "pages":[
+                        "/onchainstack/component/overview"
+                      ]
+                    }
                 ]
             }
         ],
