@@ -9,48 +9,8 @@
     },
     "favicon": "/favicon.ico",
     "navigation": {
-        "groups": [
-            {
-                "group": "Introduction",
-                "pages": [
-                    "/introduction/introduction"
-                ]
-            },
-            {
-                "group": "Onchain Stacks",
-                "pages": [
-                    {
-                        "dropdown": "Component",
-                        "pages": [
-                            "/onchainstack/component/overview",
-                            "/onchainstack/component/build",
-                            "/onchainstack/component/faqs"
-                        ]
-                    },
-                    "/onchainstack/scan",
-                    "/onchainstack/sdk"
-                ]
-            },
-            {
-                "group": "Protocols",
-                "pages": [
-                    "/protocols/eip7566",
-                    "/protocols/eip7654",
-                    {
-                        "dropdown": "MSCP",
-                        "pages": [
-                            "/protocols/mscp/overview",
-                            "/protocols/mscp/start"
-                        ]
-                    }
-                ]
-            },
-            {
-                "group": "Aser Agent",
-                "pages": [
-                    "/aser/overview"
-                ]
-            }
+        "pages": [
+            "/aser/overview"
         ],
         "global": {
             "anchors": [
