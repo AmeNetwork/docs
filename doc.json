@@ -1,0 +1,111 @@
+{
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "mint",
+    "name": "Ame Network",
+    "colors": {
+        "primary": "#1B39FF",
+        "light": "#07C983",
+        "dark": "#15803D"
+    },
+    "favicon": "/favicon.ico",
+    "navigation": {
+        "tabs": [
+            {
+                "tab": "Guides",
+                "groups": [
+                    {
+                        "group": "Introduction",
+                        "pages": [
+                            "/introduction/introduction"
+                        ]
+                    },
+                    {
+                        "group": "Onchain Stacks",
+                        "pages": [
+                            {
+                                "dropdown": "Component",
+                                "pages": [
+                                    "/onchainstack/component/overview",
+                                    "/onchainstack/component/build",
+                                    "/onchainstack/component/faqs"
+                                ]
+                            },
+                            "/onchainstack/scan",
+                            "/onchainstack/sdk"
+                        ]
+                    },
+                    {
+                        "group": "Protocols",
+                        "pages": [
+                            "/protocols/eip7566",
+                            "/protocols/eip7654",
+                            {
+                                "dropdown": "MSCP",
+                                "pages": [
+                                    "/protocols/mscp/overview",
+                                    "/protocols/mscp/start"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Aser Agent",
+                        "pages": [
+                            "/aser/overview"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "global": {
+            "anchors": [
+                {
+                    "anchor": "Documentation",
+                    "href": "https://mintlify.com/docs",
+                    "icon": "book-open-cover"
+                },
+                {
+                    "anchor": "Community",
+                    "href": "https://mintlify.com/community",
+                    "icon": "slack"
+                }
+            ]
+        }
+    },
+    "logo": {
+        "light": "/logo/light.svg",
+        "dark": "/logo/dark.svg"
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Website",
+                "href": "https://ame.network/"
+            }
+        ],
+        "primary": {
+            "type": "button",
+            "label": "Support",
+            "href": "https://t.me/hello_rickey"
+        }
+    },
+    "contextual": {
+        "options": [
+            "copy",
+            "view",
+            "chatgpt",
+            "claude",
+            "perplexity",
+            "mcp",
+            "cursor",
+            "vscode"
+        ]
+    },
+    "footer": {
+        "socials": {
+            "x": "https://x.com/0xAmeNetwork",
+            "github": "https://github.com/AmeNetwork",
+            "youtube": "https://www.youtube.com/@amenetwork"
+        }
+    }
+}
