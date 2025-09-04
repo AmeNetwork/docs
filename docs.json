@@ -20,14 +20,14 @@
                 "group": "Onchain Stack",
                 "pages": [
                     "/onchainstack/scan",
-                    "/onchainstack/sdk"
-                ],
-                {
-                  "dropdown": "Component",
-                  "pages":[
-                      "/onchainstack/component/overview"
-                   ]
-                }
+                    "/onchainstack/sdk",
+                    {
+                        "dropdown": "Component",
+                        "pages":[
+                            "/onchainstack/component/build"
+                        ]
+                    }
+                ]
             }
         ],
         "global": {
