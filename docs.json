@@ -19,14 +19,27 @@
             {
                 "group": "Onchain Stack",
                 "pages": [
-                    "/onchainstack/scan",
-                    "/onchainstack/sdk",
                     {
                       "group":"Component",
                       "pages":[
                         "/onchainstack/component/overview",
                         "/onchainstack/component/build",
                         "/onchainstack/component/faqs"
+                      ]
+                    },
+                    "/onchainstack/scan",
+                    "/onchainstack/sdk"
+                ]
+            },{
+                "group":"Protocols",
+                "pages":[
+                    "/protocols/eip7654",
+                    "/protocols/eip7655",
+                    {
+                      "group":"MSCP",
+                      "pages":[
+                        "/protocols/mscp/mscp",
+                        "/protocols/mscp/start"
                       ]
                     }
                 ]
@@ -35,9 +48,9 @@
         "global": {
             "anchors": [
                 {
-                    "anchor": "Documentation",
-                    "href": "https://mintlify.com/docs",
-                    "icon": "book-open-cover"
+                    "anchor": "Github",
+                    "href": "https://github.com/AmeNetwork",
+                    "icon": "github"
                 }
             ]
         }

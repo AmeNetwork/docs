@@ -1,0 +1,38 @@
+---
+title: "Model Smart Contract Protocol (MSCP)"
+sidebarTitle: "MSCP"
+---
+
+A standard protocol that enables LLM applications to interact with EVM-compatible networks.
+
+## **Features**
+
+**Component as a service**\
+AI Agent interacts with the network by operating different components.
+
+**Fast integration**\
+Component-based design makes it easier to build workflows and accelerates the development of AI applications.
+
+**Unified interaction**\
+Use consistent rules and protocols to standardize the calls to contracts with different functions and ensure the consistency of AI interactions.
+
+**Dynamic expansion**\
+AI Agent can add custom onchain components with greater flexibility.
+
+**EVM compatibility**\
+It can interact with multiple EVM-compatible network contracts at the same time, and has greater adaptability in handling tasks in complex scenarios.
+
+**Decentralization**\
+Access component capabilities without permission, share onchain data, and provide persistent services and information verification.
+
+## **Architecture**
+
+![Mscp Architecture Pn](/images/mscp_architecture.png)
+
+### **MSCP consists of three parts:**
+
+**Component:** This is an on-chain component that complies with [EIP-7654](https://eips.ethereum.org/EIPS/eip-7654). It is used to implement the specific functions of the contract and provide custom services.
+
+**Connector:** This is a method and specification for parsing Components and processing contract component requests.
+
+**Chat2Web3:** This is an interoperator, which is used to automatically convert the interaction methods of contract components into tool functions that LLM can call. ​
