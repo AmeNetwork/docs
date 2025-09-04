@@ -9,51 +9,46 @@
     },
     "favicon": "/favicon.ico",
     "navigation": {
-        "tabs": [
+        "groups": [
             {
-                "tab": "Guides",
-                "groups": [
+                "group": "Introduction",
+                "pages": [
+                    "/introduction/introduction"
+                ]
+            },
+            {
+                "group": "Onchain Stacks",
+                "pages": [
                     {
-                        "group": "Introduction",
+                        "dropdown": "Component",
                         "pages": [
-                            "/introduction/introduction"
+                            "/onchainstack/component/overview",
+                            "/onchainstack/component/build",
+                            "/onchainstack/component/faqs"
                         ]
                     },
+                    "/onchainstack/scan",
+                    "/onchainstack/sdk"
+                ]
+            },
+            {
+                "group": "Protocols",
+                "pages": [
+                    "/protocols/eip7566",
+                    "/protocols/eip7654",
                     {
-                        "group": "Onchain Stacks",
+                        "dropdown": "MSCP",
                         "pages": [
-                            {
-                                "dropdown": "Component",
-                                "pages": [
-                                    "/onchainstack/component/overview",
-                                    "/onchainstack/component/build",
-                                    "/onchainstack/component/faqs"
-                                ]
-                            },
-                            "/onchainstack/scan",
-                            "/onchainstack/sdk"
-                        ]
-                    },
-                    {
-                        "group": "Protocols",
-                        "pages": [
-                            "/protocols/eip7566",
-                            "/protocols/eip7654",
-                            {
-                                "dropdown": "MSCP",
-                                "pages": [
-                                    "/protocols/mscp/overview",
-                                    "/protocols/mscp/start"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "group": "Aser Agent",
-                        "pages": [
-                            "/aser/overview"
+                            "/protocols/mscp/overview",
+                            "/protocols/mscp/start"
                         ]
                     }
+                ]
+            },
+            {
+                "group": "Aser Agent",
+                "pages": [
+                    "/aser/overview"
                 ]
             }
         ],
