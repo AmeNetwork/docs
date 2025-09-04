@@ -17,10 +17,20 @@
                 "pages": [
                     "/introduction/introduction"
                 ]
-            },{
-                "group": "Introduction",
+            },
+            {
+                "group": "Onchain Stacks",
                 "pages": [
-                    "/introduction/introduction"
+                    {
+                        "dropdown": "Component",
+                        "pages": [
+                            "/onchainstack/component/overview",
+                            "/onchainstack/component/build",
+                            "/onchainstack/component/faqs"
+                        ]
+                    },
+                    "/onchainstack/scan",
+                    "/onchainstack/sdk"
                 ]
             }
         ],
