@@ -10,7 +10,13 @@
     "favicon": "/favicon.ico",
     "navigation": {
         "pages": [
-            "/aser/overview"
+            "/aser/overview",
+            {
+                "group": "Introduction",
+                "pages": [
+                    "/introduction/introduction"
+                ]
+            }
         ],
         "global": {
             "anchors": [
@@ -18,11 +24,6 @@
                     "anchor": "Documentation",
                     "href": "https://mintlify.com/docs",
                     "icon": "book-open-cover"
-                },
-                {
-                    "anchor": "Community",
-                    "href": "https://mintlify.com/community",
-                    "icon": "slack"
                 }
             ]
         }
