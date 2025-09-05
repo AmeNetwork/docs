@@ -1,0 +1,55 @@
+---
+title: "Quick Start"
+sidebarTitle: "Quick Start"
+---
+
+## Install & Setup
+
+<Steps>
+  <Step title="Install" titleSize="h3">
+    **Install from pypi:**
+
+    ```shellscript
+    pip3 install aser
+    ```
+
+    **Clone the repository:**
+
+    ```shellscript
+    git clone https://github.com/AmeNetwork/aser.git
+    cd aser
+    pip3 install -r requirements.txt
+    ```
+  </Step>
+  <Step title="Set up environment variables" titleSize="h3">
+    Please refer to `.env.example` file, and create a `.env` file with your own settings. You can use two methods to import environment variables.
+
+    **Using python-dotenv:**
+
+    ```shellscript
+    pip install python-dotenv
+    ```
+
+    Then add the following code to your python file.
+
+    ```shellscript
+    from dotenv import load_dotenv
+    load_dotenv()
+    ```
+
+    **Exporting all variables in the terminal:**
+
+    ```shellscript
+    export $(grep -v '^#' .env | xargs)
+    ```
+  </Step>
+</Steps>
+
+## Running your Agent
+
+```python
+from aser.agent import Agent
+agent=Agent(name="aser agent",model="gpt-4.1-mini")
+response=agent.chat("what's bitcoin?")
+print(response)
+```

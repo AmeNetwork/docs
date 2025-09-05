@@ -13,7 +13,7 @@
             {
                 "group": "Introduction",
                 "pages": [
-                    "/introduction/introduction"
+                    "/introduction"
                 ]
             },
             {
@@ -38,10 +38,16 @@
                     {
                       "group":"MSCP",
                       "pages":[
-                        "/protocols/mscp/mscp",
-                        "/protocols/mscp/start"
+                        "/protocols/mscp/overview",
+                        "/protocols/mscp/qucikstart"
                       ]
                     }
+                ]
+            },{
+                "group":"Aser Agent",
+                "pages":[
+                    "/aser/overview",
+                    "/aser/quickstart"
                 ]
             }
         ],
