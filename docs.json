@@ -47,7 +47,17 @@
                 "group":"Aser Agent",
                 "pages":[
                     "/aser/overview",
-                    "/aser/quickstart"
+                    "/aser/quickstart",
+                    "/aser/memory",
+                    "/aser/knowledge",
+                    "/aser/toolkits",
+                    "/aser/thinking",
+                    "/aser/mcp",
+                    "/aser/mscp",
+                    "/aser/social",
+                    "/aser/cli",
+                    "/aser/api",
+                    "/aser/trace"
                 ]
             }
         ],

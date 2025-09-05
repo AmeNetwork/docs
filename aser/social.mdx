@@ -1,0 +1,25 @@
+---
+title: "Social Clients"
+description: "Description of your new file."
+sidebarTitle: "Social Clients"
+---
+
+Discord
+
+```python
+from aser.social.discord import DiscordClient
+from aser.agent import Agent
+agent=Agent(name="discord agent", description="discord agent",model="gpt-3.5-turbo")
+discord_agent = DiscordClient(agent)
+discord_agent.run()
+```
+
+Telegram
+
+```python
+from aser.social.telegram import TelegramClient
+from aser.agent import Agent
+agent=Agent(name="telegram agent", description="telegram agent",model="gpt-3.5-turbo")
+telegram_agent=TelegramClient(agent)
+telegram_agent.run()
+```
