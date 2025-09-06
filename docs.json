@@ -57,7 +57,8 @@
                     "/aser/social",
                     "/aser/cli",
                     "/aser/api",
-                    "/aser/trace"
+                    "/aser/trace",
+                    "/aser/workflow"
                 ]
             }
         ],
